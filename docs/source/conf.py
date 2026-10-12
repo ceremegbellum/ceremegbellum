@@ -113,7 +113,7 @@ intersphinx_mapping = {
 
 html_theme = "pydata_sphinx_theme"
 html_theme_options = {
-    "github_url": "https://github.com/johnsam7/ceremegbellum",
+    "github_url": "https://github.com/ceremegbellum/ceremegbellum",
     "logo": {"text": "Cere-MEG-Bellum"},
     "navigation_depth": 4,
     "show_nav_level": 0,
