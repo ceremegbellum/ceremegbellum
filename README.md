@@ -1,13 +1,13 @@
 # Cere-MEG-Bellum (CMB)
 
 [![PyPI](https://img.shields.io/pypi/v/cmb.svg)](https://pypi.org/project/cmb/)
-[![License: MIT](https://img.shields.io/pypi/l/cmb.svg)](https://github.com/johnsam7/ceremegbellum/blob/main/LICENSE)
-[![CI](https://github.com/johnsam7/ceremegbellum/actions/workflows/ci.yml/badge.svg)](https://github.com/johnsam7/ceremegbellum/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/pypi/l/cmb.svg)](https://github.com/ceremegbellum/ceremegbellum/blob/main/LICENSE)
+[![CI](https://github.com/ceremegbellum/ceremegbellum/actions/workflows/ci.yml/badge.svg)](https://github.com/ceremegbellum/ceremegbellum/actions/workflows/ci.yml)
 [![Documentation Status](https://readthedocs.org/projects/ceremegbellum/badge/?version=stable)](https://ceremegbellum.readthedocs.io/en/stable/)
 
 CMB is a Python package for fitting a high-resolution cerebellar atlas to standard MRI (ARCUS) and MEG/EEG source space computation including the cerebellum.
 
-Currently under active development: **API changes are possible**. Please report any issues or feature requests on the [GitHub issue tracker](https://github.com/johnsam7/ceremegbellum/issues).
+Currently under active development: **API changes are possible**. Please report any issues or feature requests on the [GitHub issue tracker](https://github.com/ceremegbellum/ceremegbellum/issues).
 
 For more information about the method, please see:
 
@@ -83,7 +83,7 @@ The full documentation, including the API reference, is available at
 
 ## Quick start
 
-See [`examples/example_script.py`](https://github.com/johnsam7/ceremegbellum/blob/main/examples/example_script.py) for a complete end-to-end example using the MNE sample dataset. It is also rendered on the [Examples page](https://ceremegbellum.readthedocs.io/en/latest/auto_examples/example_script.html) of the documentation.
+See complete end-to-end example that uses the MNE sample dataset in the [documentation](https://ceremegbellum.readthedocs.io/en/stable/auto_examples/example_script.html) or on [GitHub](https://github.com/ceremegbellum/ceremegbellum/blob/main/examples/example_script.py).
 
 The example works with both current MNE-Python releases and the upcoming release
 that adds `mne.setup_subcortical_source_space`, and picks the source space layout
@@ -107,7 +107,7 @@ CMB plotting functions, join the hemispheres with
 Follow steps 1 and 2 from regular installation, then install the package from source with all optional dependencies and developer tools:
 
 ```bash
-git clone https://github.com/johnsam7/ceremegbellum.git
+git clone https://github.com/ceremegbellum/ceremegbellum.git
 cd ceremegbellum
 
 pip install -e ".[dev,docs,viz-qt]"
@@ -161,6 +161,6 @@ ruff format .
 
 ## License
 
-CMB is licensed under the [MIT License](https://github.com/johnsam7/ceremegbellum/blob/main/LICENSE).
+CMB is licensed under the [MIT License](https://github.com/ceremegbellum/ceremegbellum/blob/main/LICENSE).
 
 Copyright (c) 2021-2026, authors of CMB. All rights reserved.

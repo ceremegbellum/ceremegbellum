@@ -61,9 +61,9 @@ docs = [
 
 [project.urls]
 Documentation = "https://ceremegbellum.readthedocs.io"
-Homepage = "https://github.com/johnsam7/ceremegbellum"
-Source = "https://github.com/johnsam7/ceremegbellum/"
-Tracker = "https://github.com/johnsam7/ceremegbellum/issues/"
+Homepage = "https://github.com/ceremegbellum/ceremegbellum"
+Source = "https://github.com/ceremegbellum/ceremegbellum/"
+Tracker = "https://github.com/ceremegbellum/ceremegbellum/issues/"
 
 [tool.setuptools.dynamic]
 version = {attr = "cmb._version.__version__"}
